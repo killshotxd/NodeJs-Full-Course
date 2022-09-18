@@ -25,3 +25,7 @@
 
 // const fs = require("fs");
 // fs.writeFileSync("hello.txt", "Welcome");
+
+// Getting directory
+
+// console.log("-->>", __dirname);
