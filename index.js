@@ -65,3 +65,5 @@
 
 // package.json
 // npm init
+// npm i colors
+//npm i simple-node-logger
