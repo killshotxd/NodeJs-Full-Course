@@ -30,3 +30,13 @@
 
 // console.log("-->>", __dirname);
 // console.log("-->>", __filename);
+
+// Only single function import from module
+
+// const fs = require("fs").writeFileSync;
+
+// fs("abc.txt", "abc");
+
+const gs = require("fs").writeFileSync;
+
+gs("abc2.txt", "abc");
