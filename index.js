@@ -43,7 +43,7 @@
 
 // Making basic server
 
-const http = require("http");
+// const http = require("http");
 
 // http
 //   .createServer((req, res) => {
@@ -60,3 +60,8 @@ const http = require("http");
 // };
 
 // http.createServer(dataControl).listen(4500);
+
+// 1h4m
+
+// package.json
+// npm init
