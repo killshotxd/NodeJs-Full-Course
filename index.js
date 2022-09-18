@@ -37,6 +37,16 @@
 
 // fs("abc.txt", "abc");
 
-const gs = require("fs").writeFileSync;
+// const gs = require("fs").writeFileSync;
 
-gs("abc2.txt", "abc");
+// gs("abc2.txt", "abc");
+
+// Making basic server
+
+const http = require("http");
+http
+  .createServer((req, res) => {
+    res.write("<h1>Hello this is Killshot</h1>");
+    res.end();
+  })
+  .listen(4500);
