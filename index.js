@@ -107,14 +107,22 @@
 
 // Simple API using node
 
-const http = require("http");
-const data = require("./data");
-http
-  .createServer((req, res) => {
-    res.writeHead(200, { "Content-Type": "application/json" });
-    res.write(JSON.stringify(data));
-    res.end();
-  })
-  .listen(8000);
+// const http = require("http");
+// const data = require("./data");
+// http
+//   .createServer((req, res) => {
+//     res.writeHead(200, { "Content-Type": "application/json" });
+//     res.write(JSON.stringify(data));
+//     res.end();
+//   })
+//   .listen(8000);
 
 //   1h38m
+
+// 1h:43m
+// Input from command line
+// const fs = require("fs");
+
+// const input = process.argv;
+
+// fs.writeFileSync(input[2], input[3]);
