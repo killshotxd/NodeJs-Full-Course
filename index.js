@@ -98,5 +98,11 @@
 // Start nodemon
 // type nodemon in terminal
 
-console.warn("What's up testing live code....");
-console.warn("Save the code see the magic....");
+// console.warn("What's up testing live code....");
+// console.warn("Save the code see the magic....");
+
+//Node js is Async
+
+// 1h32m
+
+// Simple API using node
