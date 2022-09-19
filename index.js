@@ -67,3 +67,11 @@
 // npm init
 // npm i colors
 //npm i simple-node-logger
+
+// ColorFull console
+
+const colors = require("colors");
+
+console.log("lorem10".america);
+console.log("Hello Killshot".red);
+console.log("Hello Killshot".bgMagenta);
