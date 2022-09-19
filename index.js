@@ -86,3 +86,11 @@
 // Ignoring Node Modules
 // create file .gitignore
 // add "/node_modules"
+
+// 1h27m
+
+// Installing and using nodemon package
+
+// npm i nodemon -g
+
+// -g means installing a module globally
