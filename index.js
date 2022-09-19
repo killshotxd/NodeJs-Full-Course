@@ -94,3 +94,9 @@
 // npm i nodemon -g
 
 // -g means installing a module globally
+
+// Start nodemon
+// type nodemon in terminal
+
+console.warn("What's up testing live code....");
+console.warn("Save the code see the magic....");
