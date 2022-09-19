@@ -70,8 +70,19 @@
 
 // ColorFull console
 
-const colors = require("colors");
+// const colors = require("colors");
 
-console.log("lorem10".america);
-console.log("Hello Killshot".red);
-console.log("Hello Killshot".bgMagenta);
+// console.log("lorem10".america);
+// console.log("Hello Killshot".red);
+// console.log("Hello Killshot".bgMagenta);
+
+// node Chalk
+// npm i chalk
+
+// const chalk = require("chalk");
+
+// console.log(chalk.blue("Hello world!"));
+
+// Ignoring Node Modules
+// create file .gitignore
+// add "/node_modules"
