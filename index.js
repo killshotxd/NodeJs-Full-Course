@@ -106,3 +106,15 @@
 // 1h32m
 
 // Simple API using node
+
+const http = require("http");
+
+http
+  .createServer((req, res) => {
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.write(
+      JSON.stringify({ name: "Killshot", email: "hassanansari211@gmail.com" })
+    );
+    res.end();
+  })
+  .listen(8000);
