@@ -141,3 +141,12 @@
 // }
 
 // 1h:55m
+
+// Creating files
+
+const fs = require("fs");
+const path = require("path");
+const dirPath = path.join(__dirname, "files");
+for (i = 1; i < 6; i++) {
+  fs.writeFileSync(dirPath + `/hello${i}.txt`, "A simple text File");
+}
