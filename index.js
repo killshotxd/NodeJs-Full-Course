@@ -195,3 +195,26 @@
 // Delete a file
 
 // fs.unlinkSync(`${dirPath}/rename.txt`);
+
+// What is Buffer in node?
+
+// Buffer is temporary file location
+
+// Asynchronous Basics in NOde js
+// 2h:20m
+
+// console.log("start exe........");
+// console.log("logic exe........");
+// console.log("complete exe........");
+
+// console.log("start exe........");
+
+// setTimeout(() => {
+//   console.log("logic exe........");
+// }, 1000);
+
+// console.log("complete exe........");
+
+// Node js , javascript is Asynchronous language it doesn't wait for other codes to execute an independent code
+
+// Asynchronous is fast
