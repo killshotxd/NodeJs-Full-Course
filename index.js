@@ -228,3 +228,19 @@
 // }, 1000);
 
 // console.log(a + b);
+
+// Handle Asynchronous data in NOde js
+// 2h:29m
+
+// let a = 10,
+//   b = 0;
+
+// let waitingData = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve(30);
+//   }, 1000);
+// });
+
+// waitingData.then((data) => {
+//   console.log(a + data);
+// });
