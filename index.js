@@ -164,3 +164,34 @@
 // CRUD with File system
 
 // 2h10m
+
+const fs = require("fs");
+const path = require("path");
+const dirPath = path.join(__dirname, "curd");
+const filePath = `${dirPath}/file.txt`;
+// Create a file
+// fs.writeFileSync(filePath, "This is a file system");
+
+// Read a file
+// fs.readFile(filePath, "utf-8", (err, item) => {
+//   console.log(item);
+// });
+
+// Update a file
+// fs.appendFile(filePath, "and file name is file.txt", (err) => {
+//   if (!err) {
+//     console.log("File is updated");
+//   }
+// });
+
+// Rename a file
+
+// fs.rename(filePath, `${dirPath}/rename.txt`, (err) => {
+//   if (!err) {
+//     console.log("File name is updated");
+//   }
+// });
+
+// Delete a file
+
+// fs.unlinkSync(`${dirPath}/rename.txt`);
