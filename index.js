@@ -165,10 +165,10 @@
 
 // 2h10m
 
-const fs = require("fs");
-const path = require("path");
-const dirPath = path.join(__dirname, "curd");
-const filePath = `${dirPath}/file.txt`;
+// const fs = require("fs");
+// const path = require("path");
+// const dirPath = path.join(__dirname, "curd");
+// const filePath = `${dirPath}/file.txt`;
 // Create a file
 // fs.writeFileSync(filePath, "This is a file system");
 
