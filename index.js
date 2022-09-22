@@ -244,3 +244,5 @@
 // waitingData.then((data) => {
 //   console.log(a + data);
 // });
+
+// USed for custom functions
