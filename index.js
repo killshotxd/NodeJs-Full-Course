@@ -218,3 +218,13 @@
 // Node js , javascript is Asynchronous language it doesn't wait for other codes to execute an independent code
 
 // Asynchronous is fast
+
+// Drawbacks of Asynchronous
+// let a = 10,
+//   b = 0;
+
+// setTimeout(() => {
+//   b = 20;
+// }, 1000);
+
+// console.log(a + b);
