@@ -271,23 +271,25 @@
 // npm i express
 
 // Creating live server and pages using express
-const express = require("express");
-const app = express();
+// const express = require("express");
+// const app = express();
 
-app.get("", (req, res) => {
-  res.send("Welcome , This is Home page");
-});
+// app.get("", (req, res) => {
+//   res.send("Welcome , This is Home page");
+// });
 
-app.get("/about", (req, res) => {
-  res.send("Welcome , This is About page");
-});
+// app.get("/about", (req, res) => {
+//   res.send("Welcome , This is About page");
+// });
 
-app.get("/help", (req, res) => {
-  res.send("Welcome , This is Help page");
-});
+// app.get("/help", (req, res) => {
+//   res.send("Welcome , This is Help page");
+// });
 
-app.listen(5000);
+// app.listen(5000);
 
 // using nodemon we can edit servers in live with refresh
 
 // nodemon index.js
+
+// 3h2m
