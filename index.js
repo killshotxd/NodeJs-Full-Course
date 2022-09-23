@@ -269,3 +269,17 @@
 
 // Installing express js
 // npm i express
+
+// Creating live server and pages using express
+const express = require("express");
+const app = express();
+
+app.get("", (req, res) => {
+  res.send("Hello , This is Home page");
+});
+
+app.get("/about", (req, res) => {
+  res.send("Hello , This is About page");
+});
+
+app.listen(5000);
