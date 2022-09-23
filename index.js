@@ -250,3 +250,15 @@
 // 2h36m
 
 // How node js Works
+
+console.log("Starting Up"); //this directly executes
+
+setTimeout(() => {
+  console.log("2 second log");
+}, 2000); // this goes in nodejs API stack
+
+setTimeout(() => {
+  console.log("0 second log");
+}, 0); // this goes in nodejs API stack
+
+console.log("Finishing Up"); //this directly executes
